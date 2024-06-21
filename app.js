@@ -8,7 +8,7 @@ const PORT = 3001;
 
 app.use(cors());
 app.use(bodyParser.json());
-app.use('/api/navtable', navtableRoutes); // Use the correct path
+app.use('/api/data', navtableRoutes); // Use the correct path
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
